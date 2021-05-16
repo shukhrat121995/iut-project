@@ -33,14 +33,13 @@ const Login = () => {
                   </NavLink>
                 </NavItem>*/}
                 {
-                  <NavItem>
-                    <NavLink
-                      href="https://www.creative-tim.com/presentation?ref=adr-auth-footer"
-                      target="_blank"
-                    >
-                      About Project
-                    </NavLink>
-                  </NavItem>
+                  <a
+                    className="font-weight-bold ml-1"
+                    href="https://www.creative-tim.com?ref=adr-auth-footer"
+                    target="_blank"
+                  >
+                    GitHub
+                  </a>
                 }
                 {/*<NavItem>
                   <NavLink

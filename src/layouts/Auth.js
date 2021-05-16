@@ -67,10 +67,11 @@ const Auth = (props) => {
             <div className="header-body text-center mb-7">
               <Row className="justify-content-center">
                 <Col lg="5" md="6">
-                  <h1 className="text-white">Login</h1>
-                  <p className="text-lead text-light">
-                    Simply create your account by clicking the LinkedIn button.
-                  </p>
+                  <h1 className="text-white">Sign in</h1>
+                  <h3 className="text-lead text-white">
+                    Simply create and log in to your account by clicking the
+                    LinkedIn button.
+                  </h3>
                 </Col>
               </Row>
             </div>
