@@ -319,7 +319,7 @@ let chartExample1 = {
           ticks: {
             callback: function (value) {
               if (!(value % 10)) {
-                return "$" + value + "k";
+                return value;
               }
             },
           },
@@ -337,7 +337,7 @@ let chartExample1 = {
             content += label;
           }
 
-          content += "$" + yLabel + "k";
+          content += yLabel;
           return content;
         },
       },
@@ -345,22 +345,22 @@ let chartExample1 = {
   },
   data1: (canvas) => {
     return {
-      labels: ["May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+      labels: ["2018", "2019", "2020", "2021", "2022", "2023"],
       datasets: [
         {
-          label: "Performance",
-          data: [0, 20, 10, 30, 15, 40, 20, 60, 60],
+          label: "Male Graduates",
+          data: [80, 130, 150, 180, 0, 0],
         },
       ],
     };
   },
   data2: (canvas) => {
     return {
-      labels: ["May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+      labels: ["2018", "2019", "2020", "2021", "2022", "2023"],
       datasets: [
         {
-          label: "Performance",
-          data: [0, 20, 5, 25, 10, 30, 15, 40, 40],
+          label: "Female Graduates",
+          data: [20, 50, 60, 70, 0, 0],
         },
       ],
     };
@@ -400,12 +400,12 @@ let chartExample2 = {
     },
   },
   data: {
-    labels: ["Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+    labels: ["0-2 years", "3-4 years", "5+ years"],
     datasets: [
       {
-        label: "Sales",
-        data: [25, 20, 30, 22, 17, 29],
-        maxBarThickness: 10,
+        label: "Salary",
+        data: [750, 950, 1200],
+        maxBarThickness: 50,
       },
     ],
   },
