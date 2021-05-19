@@ -377,7 +377,7 @@ let chartExample2 = {
             callback: function (value) {
               if (!(value % 10)) {
                 //return '$' + value + 'k'
-                return value;
+                return "$" + value;
               }
             },
           },
@@ -394,7 +394,7 @@ let chartExample2 = {
             content += label;
           }
           content += yLabel;
-          return content;
+          return "$" + content;
         },
       },
     },
