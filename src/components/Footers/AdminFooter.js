@@ -34,14 +34,14 @@ const Footer = () => {
               rel="noopener noreferrer"
               target="_blank"
             >
-              Creative Tim
+              Shukhrat Mirrakhimov
             </a>
           </div>
         </Col>
 
         <Col xl="6">
           <Nav className="nav-footer justify-content-center justify-content-xl-end">
-            <NavItem>
+            {/*<NavItem>
               <NavLink
                 href="https://www.creative-tim.com?ref=adr-admin-footer"
                 rel="noopener noreferrer"
@@ -70,14 +70,14 @@ const Footer = () => {
                 Blog
               </NavLink>
             </NavItem>
-
+            */}
             <NavItem>
               <NavLink
                 href="https://github.com/creativetimofficial/argon-dashboard/blob/master/LICENSE.md?ref=adr-admin-footer"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                MIT License
+                GitHub
               </NavLink>
             </NavItem>
           </Nav>
