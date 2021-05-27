@@ -236,25 +236,25 @@ const Sidebar = (props) => {
           {/* Divider */}
           <hr className="my-3" />
           {/* Heading */}
-          <h6 className="navbar-heading text-muted">Documentation</h6>
+          <h6 className="navbar-heading text-muted">Social</h6>
           {/* Navigation */}
           <Nav className="mb-md-3" navbar>
             <NavItem>
               <NavLink href="https://demos.creative-tim.com/argon-dashboard-react/#/documentation/overview?ref=adr-admin-sidebar">
-                <i className="ni ni-spaceship" />
-                Getting started
+                <i class="fab fa-facebook-f"></i>
+                Facebook
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="https://demos.creative-tim.com/argon-dashboard-react/#/documentation/colors?ref=adr-admin-sidebar">
-                <i className="ni ni-palette" />
-                Foundation
+                <i class="fab fa-linkedin-in"></i>
+                LinkedIn
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="https://demos.creative-tim.com/argon-dashboard-react/#/documentation/alerts?ref=adr-admin-sidebar">
-                <i className="ni ni-ui-04" />
-                Components
+                <i class="fab fa-youtube"></i>
+                YouTube
               </NavLink>
             </NavItem>
           </Nav>
@@ -262,7 +262,7 @@ const Sidebar = (props) => {
             <NavItem className="active-pro active">
               <NavLink href="https://www.creative-tim.com/product/argon-dashboard-pro-react?ref=adr-admin-sidebar">
                 <i className="ni ni-spaceship" />
-                Upgrade to PRO
+                Terms of Service
               </NavLink>
             </NavItem>
           </Nav>
